@@ -1,6 +1,6 @@
 {
-  "homepage":"https://shubham12345842.github.io/Food-Palace",
   "name": "my-fast-food-restaurant",
+  "homepage": "https://shubham12345842.github.io/my-fast-food-restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
+    
   },
   "eslintConfig": {
     "extends": [
