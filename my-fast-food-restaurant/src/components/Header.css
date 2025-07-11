@@ -1,0 +1,55 @@
+.header{
+
+    background: url('C:\Users\Maps\Downloads\bghero.webp') no-repeat center center/cover;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.header-content{
+
+    text-align: center;
+    max-width: 100%;
+    width: 600px ;
+    margin-left: 5% ;
+
+}
+.slider-text{
+    
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+
+
+}
+
+.slider-text h2 {
+
+    font-family: champ(2.5rem, 8vw, 44.375rem);
+    margin-bottom: 1rem;
+
+}
+
+.slider-text p{
+
+    margin: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.carousel .control-dot .dot{
+
+    background-color: #e69500;
+    box-shadow: none;
+
+}
+.carousel .control-dot .dot.selected{
+    background-color: #ffa600cf;
+
+}
+
+
+

@@ -1,0 +1,114 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color:#333 ;
+    padding: 0 20px;
+    height: 70px;
+    color: white;
+}
+
+.navbar-logo {
+
+    font-family: 'Brush Script MT', cursive;
+    font-size: 26px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+
+}
+.navlinks a{
+
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+
+}
+.nav-links a:hover{
+
+    color: #ffa500;
+}
+
+.nav-icon{
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.order-button{
+
+    background-color: #ffa500;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.order-button:hover{
+
+    background-color: #ffa600c3;
+    transition: 0.3s;
+
+}
+.mobile-menu-icon{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+@media (max-width:768px) {
+    .nav-links{
+
+        display: none;
+    }
+
+    .nav-links-mobile {
+
+        display:flex ;
+        flex-direction: column;
+        position: absolute;
+        top:60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        align-items: center;
+        margin-bottom: 10px;
+        z-index: 1;
+    }
+
+    .mobile-menu-icon{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-links-mobile a{
+
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_icon{
+        margin-bottom: 10px;
+
+
+    }
+
+    .nav-links-mobile a:hover{
+        background-color: #444;
+
+    }
+    .order-button{
+        margin-top: 10px;
+    }
+
+}
