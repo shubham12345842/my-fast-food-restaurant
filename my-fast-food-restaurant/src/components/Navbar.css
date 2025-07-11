@@ -21,7 +21,7 @@
 
 
 }
-.navlinks a{
+.nav-links a{
 
     color: white;
     text-decoration: none;
@@ -30,7 +30,7 @@
 }
 .nav-links a:hover{
 
-    color: #ffa500;
+    color: #ffa600;
 }
 
 .nav-icon{
